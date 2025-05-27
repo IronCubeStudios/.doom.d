@@ -1,0 +1,72 @@
+[[~/.doom.d/doomstartpage.png]]
+
+** 🏁 Startup
+- `SPC h d h` :: Doom Emacs help menu
+- `SPC h d s` :: Doom Emacs stats
+- `SPC q q` :: Quit Emacs
+- `SPC q r` :: Restart Emacs
+- `SPC q R` :: Restart + reload Doom config
+
+** 📁 Files & Buffers
+*** Files
+- `SPC f f` :: Find file
+- `SPC f r` :: Recent files
+- `SPC f s` :: Save file
+- `SPC f S` :: Save all
+- `SPC f e d` :: Open Doom config dir
+
+*** Buffers
+- `SPC b b` :: Switch buffer
+- `SPC b d` :: Kill buffer
+- `SPC b n` :: Next buffer
+- `SPC b p` :: Previous buffer
+- `SPC b i` :: Open ibuffer
+
+** 🔍 Search & Navigation
+- `SPC /` :: Search in project (ripgrep)
+- `SPC s s` :: Search in buffer
+- `SPC s p` :: Search in project
+- `SPC s d` :: Search current directory
+
+** 💻 Window Management
+- `SPC w /` :: Split window right
+- `SPC w -` :: Split window below
+- `SPC w d` :: Delete window
+- `SPC w m` :: Maximize window
+- `SPC w h/j/k/l` :: Move between windows (like Vim)
+- `SPC TAB` :: Toggle last buffer
+
+** 🔧 Project Management
+- `SPC p p` :: Switch project
+- `SPC p f` :: Find file in project
+- `SPC p r` :: Recent files in project
+- `SPC p b` :: Switch buffer in project
+
+** 🧠 Org Mode
+- `SPC m l` :: Insert link
+- `SPC m t` :: Set TODO state
+- `SPC m s` :: Schedule task
+- `SPC m d` :: Set deadline
+- `TAB` :: Fold/unfold section
+- `C-c C-e` :: Export options (pdf/html/md)
+- `C-c C-c` :: Confirm/trigger org command
+- `M-RET` :: Insert new heading
+
+** 📦 Package Management
+- `SPC h p` :: Package manager home
+- `SPC h p u` :: Update packages
+- `SPC h p s` :: Sync packages
+- `SPC h p r` :: Rebuild Doom (run `doom sync`)
+
+** 🔥 Doom Specific
+- `SPC h r r` :: Reload Doom config
+- `SPC h r R` :: Hard restart + recompile
+- `M-x doom/reload` :: Reload everything
+- `M-x doom/sync` :: Sync Doom with packages
+
+** 📜 Helpful Tips
+- `SPC :` :: M-x (run command)
+- `C-x C-c` :: Quit (classic Emacs)
+- `C-g` :: Cancel command / Escape
+- `C-x o` :: Switch window (vanilla)
+- `SPC u` :: Universal argument (like `C-u`)

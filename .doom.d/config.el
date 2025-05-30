@@ -10,5 +10,5 @@
 (setq display-line-numbers-type t)
 
  (setq user-full-name "IronCubeStudios"
-      user-mail-address "orangutanggren722@gmail.com")
+      user-mail-address "<redacted>")
 (add-hook 'org-mode-hook 'org-display-inline-images)
